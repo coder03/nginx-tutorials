@@ -4,3 +4,6 @@ services:
     image: nginx:latest
     ports:
       - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+      - ./index.html:/static-html/index.html

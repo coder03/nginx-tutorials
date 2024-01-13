@@ -1,2 +1,2 @@
 # ngixn-tutorials
-Tutorials on nginx using docker
+remove default nginx.conf and host a static html page
