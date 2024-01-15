@@ -1,8 +1,6 @@
 # ngixn-tutorials
-remove default nginx.conf and host a static html page
-
 TO test:
-   curl http://localhost/fruits/
+   curl http://localhost/preferred/ should show same result as curl http://localhost/fruits/
 
 NOTE:
   nginx always uses tailing slash in URLs.
